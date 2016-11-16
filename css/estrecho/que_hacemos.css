@@ -1,0 +1,329 @@
+﻿/*QUE HACEMOS*/
+#seleccion_fotografias {
+	float: left;
+	width: 90%;
+	margin: 0 5%;
+}
+
+#seleccion_fotografias li {
+	float: left;
+	margin: 0 4% 6% 4%;
+	width: 42%;
+	background-color: #ccc;
+	text-align: center;
+	position: relative;
+	box-shadow: 5px 5px 5px #333;
+	border-radius: 15px;
+	transition: all 400ms linear;
+    -webkit-transition: all 400ms linear;
+    -moz-transition: all 400ms linear;
+    -o-transition: all 400ms linear;
+    -ms-transition: all 400ms linear;
+}
+
+#seleccion_fotografias li:hover {
+	transform: scale(1.05,1.05);
+    -webkit-transform: scale(1.05,1.05);
+    -moz-transform: scale(1.05,1.05);
+    -o-transform: scale(1.05,1.05);
+    -ms-transform: scale(1.05,1.05);
+}
+
+@media screen and (max-width: 660px) {
+
+	#seleccion_fotografias {
+		float: left;
+		width: 95%;
+		margin: 0 2.5%;
+	}
+
+	#seleccion_fotografias li {
+		float: left;
+		margin: 0 3% 6% 3%;
+		width: 44%;
+		background-color: #ccc;
+		text-align: center;
+		position: relative;
+		box-shadow: 5px 5px 5px #333;
+		border-radius: 15px;
+		transition: all 400ms linear;
+	    -webkit-transition: all 400ms linear;
+	    -moz-transition: all 400ms linear;
+	    -o-transition: all 400ms linear;
+	    -ms-transition: all 400ms linear;
+	}
+
+}
+
+@media screen and (max-width: 510px) {
+
+	#seleccion_fotografias {
+		float: left;
+		width: 70%;
+		margin: 0 15%;
+	}
+
+	#seleccion_fotografias li {
+		float: left;
+		margin: 0 10% 15% 10%;
+		width: 80%;
+		background-color: #ccc;
+		text-align: center;
+		position: relative;
+		box-shadow: 5px 5px 5px #333;
+		border-radius: 15px;
+		transition: all 400ms linear;
+	    -webkit-transition: all 400ms linear;
+	    -moz-transition: all 400ms linear;
+	    -o-transition: all 400ms linear;
+	    -ms-transition: all 400ms linear;
+	}
+
+}
+
+@media screen and (max-width: 380px) {
+
+	#seleccion_fotografias {
+		float: left;
+		width: 90%;
+		margin: 0 5%;
+	}
+
+	#seleccion_fotografias li {
+		float: left;
+		margin: 0 10% 15% 10%;
+		width: 80%;
+		background-color: #ccc;
+		text-align: center;
+		position: relative;
+		box-shadow: 5px 5px 5px #333;
+		border-radius: 15px;
+		transition: all 400ms linear;
+	    -webkit-transition: all 400ms linear;
+	    -moz-transition: all 400ms linear;
+	    -o-transition: all 400ms linear;
+	    -ms-transition: all 400ms linear;
+	}
+
+}
+
+#seleccion_fotografias li img {
+	float: left;
+	width: 100%;
+	box-shadow: 5px 5px 5px #333;
+	border-radius: 15px;
+}
+
+#seleccion_fotografias li span {
+	float: left;
+	width: 90%;
+	padding: 0 5%;
+	height: 100%;  
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+}
+
+#seleccion_fotografias li:hover span {
+	display: block;
+	border-radius: 15px;
+	box-shadow: 5px 5px 5px #333;
+	background-color: #333;
+	opacity: 0.8;
+}
+
+#seleccion_fotografias li span h5 { 
+	font: normal bold 22px 'photographs', Arial, Tahoma, sans-serif;
+	color: #f00;
+	margin-top: 10%;
+	line-height: 1.4em;
+	letter-spacing: 1px;
+}
+
+#seleccion_fotografias li span p { 
+	font: normal bold 13px 'Open Sans', Arial, Tahoma, sans-serif; 
+	line-height: 1.4em;
+	margin-top: 12%; 
+	color: #6DCFF6; 
+}
+
+@media screen and (max-width: 600px) {
+
+	#seleccion_fotografias li span h5 { 
+		font: normal bold 20px 'photographs', Arial, Tahoma, sans-serif;
+		color: #f00;
+		margin-top: 10%;
+		line-height: 1.4em;
+		letter-spacing: 1px;
+	}
+
+	#seleccion_fotografias li span p { 
+		font: normal bold 11px 'Open Sans', Arial, Tahoma, sans-serif; 
+		line-height: 1.4em;
+		margin-top: 12%; 
+		color: #6DCFF6; 
+	}
+}
+
+@media screen and (max-width: 510px) {
+
+	#seleccion_fotografias li span h5 { 
+		font: normal bold 21px 'photographs', Arial, Tahoma, sans-serif;
+		color: #f00;
+		margin-top: 10%;
+		line-height: 1.4em;
+		letter-spacing: 1px;
+	}
+
+	#seleccion_fotografias li span p { 
+		font: normal bold 13px 'Open Sans', Arial, Tahoma, sans-serif; 
+		line-height: 1.4em;
+		margin-top: 12%; 
+		color: #6DCFF6; 
+	}
+
+}
+
+@media screen and (max-width: 440px) {
+
+	#seleccion_fotografias li span h5 { 
+		font: normal bold 19px 'photographs', Arial, Tahoma, sans-serif;
+		color: #f00;
+		margin-top: 10%;
+		line-height: 1.4em;
+		letter-spacing: 1px;
+	}
+
+	#seleccion_fotografias li span p { 
+		font: normal bold 11px 'Open Sans', Arial, Tahoma, sans-serif; 
+		line-height: 1.4em;
+		margin-top: 12%; 
+		color: #6DCFF6; 
+	}
+
+}
+
+#seleccion_fotografias li span a.mybutton {  
+	float: left; 
+	font: normal bold 12px 'Open Sans', Arial, Tahoma, sans-serif;
+	font-variant: small-caps;
+	padding: 4px 8px; 
+	margin: 12% 0 0 37%;
+	background: #3c9632; 
+	color: #fff; 
+	border-radius: 4px; 
+}
+
+#seleccion_fotografias li span a.mybutton:hover { 
+	background-color: #34742d;
+	transition: background-color 0.6s, transform 0.6s;
+	-webkit-transition: background-color 0.6s, transform 0.6s;
+	-moz-transition: background-color 0.6s, transform 0.6s;
+	-o-transition: background-color 0.6s, transform 0.6s;
+	-ms-transition: background-color 0.6s, transform 0.6s;
+	transform: scale(1.2,1.2);
+	-webkit-transform: scale(1.2,1.2);
+	-o-transform: scale(1.2,1.2);
+	-ms-transform: scale(1.2,1.2);
+}
+
+
+
+
+
+
+
+
+
+/*GALERÍAS QUE HACEMOS*/
+
+#slide03 {
+	float: left;
+	width: 95%;
+	margin: 0 2.5% 20px 2.5%;
+	background-color: #f8f8f8;
+}
+
+#slide03 ul {
+	float: left;
+	width: 100%;
+}
+
+#slide03 ul li {
+	float: left;
+	width: 100%;
+}
+
+#slide03 ul li img {
+	float: left;
+	width: 100%;
+}
+
+#slide04_ana {
+	float: left;
+	width: 60%;
+	margin: 0 20% 20px 20%;
+	background-color: #f8f8f8;
+}
+
+	@media screen and (max-width: 450px) {
+
+		#slide04_ana {
+			float: left;
+			width: 80%;
+			margin: 0 10% 20px 10%;
+			background-color: #f8f8f8;
+		}
+
+	}
+
+#slide04_ana ul {
+	float: left;
+	width: 100%;
+}
+
+#slide04_ana ul li {
+	float: left;
+	width: 100%;
+
+}
+
+#slide04_ana ul li img {
+	float: left;
+	width: 100%;
+}
+
+#slide05_sofia {
+	float: left;
+	width: 50%;
+	margin: 0 30% 25px 25%;
+	background-color: #f8f8f8;
+}
+
+	@media screen and (max-width: 450px) {
+
+		#slide05_sofia {
+			float: left;
+			width: 70%;
+			margin: 0 15% 20px 15%;
+			background-color: #f8f8f8;
+		}
+
+	}
+
+#slide05_sofia ul {
+	float: left;
+	width: 100%;
+}
+
+#slide05_sofia ul li {
+	float: left;
+	width: 100%;
+}
+
+#slide05_sofia ul li img {
+	float: left;
+	width: 100%;
+	max-height: 400px;
+}

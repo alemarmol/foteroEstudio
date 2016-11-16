@@ -1,0 +1,737 @@
+﻿/*SERVICIOS ADICIONALES*/
+
+#catalogo {
+	float: left;
+	width: 1180px;
+	padding: 10px 0;
+	margin: 0 10px;
+}
+
+#catalogo h4 {
+	font: italic bold 24px "photographs", "Open Sans", Arial;
+	margin: 0 0 15px 20px;
+	letter-spacing: 2px;
+	color: #6DCFF6;	
+}
+
+#catalogo > ul {
+	float: left;
+	width: 1180px;
+	margin: 0 10px 60px 10px;
+	list-style-type: none;
+}
+
+#catalogo > ul:last-child {
+	margin-bottom: 0;
+}
+
+#catalogo > ul > li {
+	float: left;
+	width: 196px;
+	margin: 0 9px;
+	padding: 6px 10px;
+	margin-bottom: 20px;
+	border: 1px solid #333;
+	border-radius: 5px;
+	box-shadow: 4px 4px 4px #333;
+	background-color: #ccc;
+}
+
+#catalogo > ul > li > a {
+	float: left;
+	width: 200px;
+	height: 204px;
+	margin-bottom: 15px;
+	text-decoration: none;
+}
+
+#catalogo > ul > li > a > img {
+	float: left;
+	width: 204px;
+	height: 204px;
+	margin-left: -4px;
+	margin-bottom: 15px;
+	border-radius: 5px;
+}
+
+#catalogo > ul > li > header.info_productos {
+	float: left;
+	width: 196px;
+}
+
+#catalogo > ul > li > header.info_productos > h5.name {
+	float: left;
+	width: 98%;
+	font: normal bold 17px "Open Sans", Arial, Tahoma, sans-serif;
+	color: #3c9632;
+	text-align: center;
+	margin: 0 2%;
+}
+
+#catalogo > ul > li > header.info_productos > h5 {
+	float: left;
+	width: 98%;
+	margin: 0 2%;
+	font: normal bold 17px "Open Sans", Arial, Tahoma, sans-serif;
+	color: #006;
+	text-align: center;
+	margin-bottom: 15px;
+	font-variant: small-caps;
+}
+
+#catalogo > ul > li > nav.acciones_productos {
+	float: left;
+	width: 100%;
+}
+
+#catalogo > ul > li > nav.acciones_productos > a {
+	float: left;
+	width: 95%;
+	margin: 0 2.5%;
+	padding: 6px 0;
+	font: italic bold 15px "Open Sans", Arial, Tahoma, sans-serif;
+	letter-spacing: 1px;
+	text-decoration: none; 
+	color: #fff;
+	text-align: center;
+	margin-bottom: 12px;
+	border-radius: 10px;
+	box-shadow: 5px 5px 2px #333;
+	background: linear-gradient(#f00,#6DCFF6);
+	background: -webkit-linear-gradient(#f00,#6DCFF6);
+	background: -moz-linear-gradient(#f00,#6DCFF6);
+	background: -o-linear-gradient(#f00,#6DCFF6);
+	transition: background 0.5s, transform 0.5s;
+	-webkit-transition: background 0.5s, -webkit-transform 0.5s;
+}
+
+#catalogo > ul > li > nav.acciones_productos > a.comprar:hover {
+	background: #333 url("../images/shop_hover.png") right center no-repeat;
+	color: #f00;
+	transform: scale(1.05,1.05);
+	-webkit-transform: scale(1.05,1.05);
+	-ms-transform: scale(1.05,1.05);
+}
+
+#catalogo > ul > li > nav.acciones_productos > a.detalles:hover {
+		background: #333 url("../images/info_hover.png") right center no-repeat;
+		color: #f00;
+		transform: scale(1.05,1.05);
+		-webkit-transform: scale(1.05,1.05);
+		-ms-transform: scale(1.05,1.05);
+}
+
+
+
+
+
+
+
+
+/*DETALLES PRODUCTOS FOTOGRÁFICOS*/
+
+#detalles {
+	float: left;
+	width: 46%;
+	margin: 3% 25% 0 25%;
+	background-color: #ccc;
+	padding: 20px 2%;
+	border-radius: 15px;
+	box-shadow: 7px 7px 7px #333;
+}
+
+#cabecera-detalles {
+	float: left;
+	width: 95.5%;
+	margin-left: -10px;
+	padding: 10px 4%;
+	background: linear-gradient(#f00,#6DCFF6);
+	background: -webkit-linear-gradient(#f00,#6DCFF6);
+	background: -moz-linear-gradient(#f00,#6DCFF6);
+	background: -o-linear-gradient(#f00,#6DCFF6);
+	margin-bottom: 40px;
+	border-radius: 10px;
+	box-shadow: 7px 7px 5px #333;
+}
+
+
+#cabecera-detalles > h4 {
+	float: left;
+	width: 100%;
+	color: #fff;
+	font: italic bold 20px "Open Sans", Arial, Tahoma, sans-serif;
+	letter-spacing: 1px;
+}
+
+#cabecera-detalles > h5 {
+	float: right;
+	color: #fff;
+	font: italic bold 20px "Open Sans", Arial, Tahoma, sans-serif;
+	letter-spacing: 1px;
+}
+
+
+#contenidos-detalles {
+	float: left;
+	width: 100%;
+}
+
+#contenidos-detalles > a > img {
+	float: left;
+	margin-left: -9px;
+	border-radius: 10px;
+}
+
+#contenidos-detalles > article {
+	float: left;
+	width: 100%;
+	margin-top: 50px;
+}
+
+#contenidos-detalles > article > h5 {
+	font: italic bold 22px "Open Sans", Arial, Tahoma, sans-serif;
+	letter-spacing: 1px;
+	color: #f00;
+	font-variant: small-caps;
+	margin-bottom: 5px;
+}
+
+#contenidos-detalles > article > h5.contenido {
+	margin-top: 50px;
+}
+
+#contenidos-detalles > article > p {
+    font: normal normal 15px "Open Sans", "photographs", Arial, Tahoma, sans-serif;
+    letter-spacing: 1px;
+    text-align: justify;
+    line-height: 27px;
+    margin-bottom: 5px;
+}
+
+
+#acciones-detalles {
+	float: left;
+	width: 100%;
+	margin-top: 50px;
+}
+
+#acciones-detalles a {
+	float: left;
+	width: 62%;
+	font: italic bold 15px "Open Sans", Arial, Tahoma, sans-serif;
+	letter-spacing: 1px;
+	text-align: center;
+	padding: 6px 4%;
+	margin: 0 15% 12px 15%;
+	color: #fff;
+	background: linear-gradient(#f00,#6DCFF6);
+	background: -webkit-linear-gradient(#f00,#6DCFF6);
+	background: -moz-linear-gradient(#f00,#6DCFF6);
+	background: -o-linear-gradient(#f00,#6DCFF6);
+	text-decoration: none;
+	border-radius: 10px;
+	box-shadow: 5px 5px 2px #333;
+	transition: background 0.5s, transform 0.5s;
+	-webkit-transition: background 0.5s, -webkit-transform 0.5s;
+}
+
+	#acciones-detalles > a.volver:hover {
+		background: #333 url("../images/back_hover.png") right center no-repeat;
+		color: #f00;
+		transform: scale(1.05,1.05);
+		-webkit-transform: scale(1.05,1.05);
+		-ms-transform: scale(1.05,1.05);
+	}
+
+	#acciones-detalles > a.comprar:hover {
+		background: #333 url("../images/shop_hover.png") right center no-repeat;
+		color: #f00;
+		transform: scale(1.05,1.05);
+		-webkit-transform: scale(1.05,1.05);
+		-ms-transform: scale(1.05,1.05);
+	}
+
+
+
+
+
+
+
+
+
+
+/*GALERÍA DETALLES DE PRODUCTOS*/
+
+#slide_producto {
+	float: left;
+	width: 555px;
+	height: 450px;
+	background-color: #f8f8f8;
+	margin-bottom: 50px;
+}
+
+#slide_producto ul {
+	float: left;
+	width: 100%;
+}
+
+#slide_producto ul li {
+	float: left;
+	width: 555px;
+	height: 450px;
+}
+
+#slide_producto ul li img {
+	float: left;
+	width: 555px;
+	height: 450px;
+}
+
+
+
+
+
+
+
+
+
+
+/*GALERÍA VÍDEOS*/
+
+.entradilla {
+	float: left;
+    font: normal normal 17px "Open Sans", "photographs", Arial, Tahoma, sans-serif;
+    letter-spacing: 1px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 27px;
+    margin: 0 0 50px 0;
+}
+
+#slide_video {
+	float: left;
+	width: 1000px;
+	height: 562px;
+	margin: 25px 100px 0 100px;
+	background-color: #f8f8f8;
+}
+
+#slide_video ul {
+	float: left;
+	width: 1000px;
+	height: 562px;
+}
+
+#slide_video ul li {
+	float: left;
+	width: 1000px;
+	height: 562px;
+}
+
+#slide_video ul li iframe {
+	float: left;
+	width: 1000px;
+	height: 562px;
+}
+
+#slide_video ul li div {
+	width: 500px;
+	padding: 5px 0;
+	position: absolute;
+	z-index: 999;
+	top: 0px;
+	left: 0px;
+}
+
+#slide_video ul li p {
+	text-align: left;
+	margin: 15px 0 0 30px;
+	font: normal normal 22px "Roboto", "Open Sans", Arial, Tahoma, sans-serif;
+	line-height: 40px;
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+/*GALERÍA jimgMenukwicks - Tamaño Ancho*/
+
+.jimgMenu {
+	position:relative;
+	margin: 0 auto;
+	padding: 0px;
+	width: 1200px;
+	height: 400px;
+	overflow: hidden;
+}
+
+.jimgMenu ul {
+	list-style: none;
+	width: 1200px;
+	margin: 30px auto;
+	display: block;
+	height: 400px;
+	position: relative;
+}
+	
+.jimgMenu ul li {
+	width: 175px;
+	float: left;
+	display: block;
+	overflow: hidden;
+}
+
+.jimgMenu ul li a {
+	text-indent: -1000px;
+	background: #f8f8f8 repeat scroll 0%;
+	border-right: 2px solid #fff;
+	cursor: pointer;
+	display:block;
+	height: 400px;
+}
+
+.jimgMenu ul li#ivan_raquel a {
+	background: url(../../media/images/albumes/bodas/ivan_raquel/ivan_raquel.jpg) repeat scroll 0%;
+  
+}
+
+.jimgMenu ul li#miguel_maria a {
+	background: url(../../media/images/albumes/bodas/miguel_maria/miguel_maria.jpg) repeat scroll 0%;
+
+}
+
+.jimgMenu ul li#pablo_maria a {
+	background: url(../../media/images/albumes/bodas/pablo_maria/pablo_maria.jpg) repeat scroll 0%;
+  
+}
+
+.jimgMenu ul li#raquel_daniel a {
+	background: url(../../media/images/albumes/bodas/raquel_daniel/raquel_daniel.jpg) repeat scroll 0%;
+
+}
+
+.jimgMenu ul li#raquel a {
+	background: #f8f8f8 url(../../media/images/albumes/comuniones/raquel/raquel.jpg) repeat scroll 0%;
+  
+}
+
+.jimgMenu ul li#miriam a {
+	background: url(../../media/images/albumes/comuniones/miriam/miriam.jpg) repeat scroll 0%;
+
+}
+
+.jimgMenu ul li#pablo a {
+	background: url(../../media/images/albumes/comuniones/pablo/pablo.jpg) repeat scroll 0%;
+  
+}
+
+.jimgMenu ul li#amaya a {
+	background: url(../../media/images/albumes/comuniones/amaya/amaya.jpg) repeat scroll 0%;
+
+}
+
+.jimgMenu ul li#isabel_familia a {
+	background: url(../../media/images/albumes/familiar/isabel_familia/isabel_familia.jpg) repeat scroll 0%;
+  
+}
+
+.jimgMenu ul li#lourdes_familia a {
+	background: url(../../media/images/albumes/familiar/lourdes_familia/lourdes_familia.jpg) repeat scroll 0%;
+
+}
+
+.jimgMenu ul li#maite_familia a {
+	background: url(../../media/images/albumes/familiar/maite_familia/maite_familia.jpg) repeat scroll 0%;
+  
+}
+
+.jimgMenu ul li#ruben_familia a {
+	background: url(../../media/images/albumes/familiar/ruben_familia/ruben_familia.jpg) repeat scroll 0%;
+
+}
+
+.jimgMenu ul li#arianne a {
+	background: url(../../media/images/albumes/infantil/arianne/arianne.jpg) repeat scroll 0%;
+  
+}
+
+.jimgMenu ul li#eneko a {
+	background: url(../../media/images/albumes/infantil/eneko/eneko.jpg) repeat scroll 0%;
+
+}
+
+.jimgMenu ul li#helena a {
+	background: url(../../media/images/albumes/infantil/helena/helena.jpg) repeat scroll 0%;
+  
+}
+
+.jimgMenu ul li#xabier a {
+	background: url(../../media/images/albumes/infantil/xabier/xabier.jpg) repeat scroll 0%;
+
+}
+
+
+
+
+
+
+
+
+
+/*GALERÍA jimgMenukwicks - Tamaño Medio*/
+
+.jimgMenu_medio {
+	position:relative;
+	margin: 0 auto;
+	padding: 0px;
+	width: 1200px;
+	height: 400px;
+	overflow: hidden;
+	display: none;
+}
+
+.jimgMenu_medio ul {
+	list-style: none;
+	width: 1200px;
+	margin: 30px auto;
+	display: block;
+	height: 400px;
+	position: relative;
+	display: none;
+}
+	
+.jimgMenu_medio ul li {
+	width: 175px;
+	float: left;
+	display: block;
+	overflow: hidden;
+	display: none;
+}
+
+.jimgMenu_medio ul li a {
+	text-indent: -1000px;
+	background: #f8f8f8 repeat scroll 0%;
+	border-right: 2px solid #fff;
+	cursor: pointer;
+	display:block;
+	height: 400px;
+	display: none;
+}
+
+.jimgMenu_medio ul li#ivan_raquel a {
+	background: url(../../media/images/albumes/bodas/ivan_raquel/ivan_raquel.jpg) repeat scroll 0%;
+  	
+}
+
+.jimgMenu_medio ul li#miguel_maria a {
+	background: url(../../media/images/albumes/bodas/miguel_maria/miguel_maria.jpg) repeat scroll 0%;
+
+}
+
+.jimgMenu_medio ul li#pablo_maria a {
+	background: url(../../media/images/albumes/bodas/pablo_maria/pablo_maria.jpg) repeat scroll 0%;
+  
+}
+
+.jimgMenu_medio ul li#raquel_daniel a {
+	background: url(../../media/images/albumes/bodas/raquel_daniel/raquel_daniel.jpg) repeat scroll 0%;
+
+}
+
+.jimgMenu_medio ul li#raquel a {
+	background: #f8f8f8 url(../../media/images/albumes/comuniones/raquel/raquel.jpg) repeat scroll 0%;
+  
+}
+
+.jimgMenu_medio ul li#miriam a {
+	background: url(../../media/images/albumes/comuniones/miriam/miriam.jpg) repeat scroll 0%;
+
+}
+
+.jimgMenu_medio ul li#pablo a {
+	background: url(../../media/images/albumes/comuniones/pablo/pablo.jpg) repeat scroll 0%;
+  
+}
+
+.jimgMenu_medio ul li#amaya a {
+	background: url(../../media/images/albumes/comuniones/amaya/amaya.jpg) repeat scroll 0%;
+
+}
+
+.jimgMenu_medio ul li#isabel_familia a {
+	background: url(../../media/images/albumes/familiar/isabel_familia/isabel_familia.jpg) repeat scroll 0%;
+  
+}
+
+.jimgMenu_medio ul li#lourdes_familia a {
+	background: url(../../media/images/albumes/familiar/lourdes_familia/lourdes_familia.jpg) repeat scroll 0%;
+
+}
+
+.jimgMenu_medio ul li#maite_familia a {
+	background: url(../../media/images/albumes/familiar/maite_familia/maite_familia.jpg) repeat scroll 0%;
+  
+}
+
+.jimgMenu_medio ul li#ruben_familia a {
+	background: url(../../media/images/albumes/familiar/ruben_familia/ruben_familia.jpg) repeat scroll 0%;
+
+}
+
+.jimgMenu_medio ul li#arianne a {
+	background: url(../../media/images/albumes/infantil/arianne/arianne.jpg) repeat scroll 0%;
+  
+}
+
+.jimgMenu_medio ul li#eneko a {
+	background: url(../../media/images/albumes/infantil/eneko/eneko.jpg) repeat scroll 0%;
+
+}
+
+.jimgMenu_medio ul li#helena a {
+	background: url(../../media/images/albumes/infantil/helena/helena.jpg) repeat scroll 0%;
+  
+}
+
+.jimgMenu_medio ul li#xabier a {
+	background: url(../../media/images/albumes/infantil/xabier/xabier.jpg) repeat scroll 0%;
+
+}
+
+
+
+
+
+
+
+
+
+/*GALERÍA jimgMenukwicks - Estrecho*/
+
+.jimgMenu_estrecho {
+	position:relative;
+	margin: 0 auto;
+	padding: 0px;
+	width: 1200px;
+	height: 400px;
+	overflow: hidden;
+	display: none;
+}
+
+.jimgMenu_estrecho ul {
+	list-style: none;
+	width: 1200px;
+	margin: 30px auto;
+	display: block;
+	height: 400px;
+	position: relative;
+	display: none;
+}
+	
+.jimgMenu_estrecho ul li {
+	width: 175px;
+	float: left;
+	display: block;
+	overflow: hidden;
+	display: none;
+}
+
+.jimgMenu_estrecho ul li a {
+	text-indent: -1000px;
+	background: #f8f8f8 repeat scroll 0%;
+	border-right: 2px solid #fff;
+	cursor: pointer;
+	display:block;
+	height: 400px;
+	display: none;
+}
+
+.jimgMenu_estrecho ul li#ivan_raquel a {
+	background: url(../../media/images/albumes/bodas/ivan_raquel/ivan_raquel.jpg) repeat scroll 0%;
+  
+}
+
+.jimgMenu_estrecho ul li#miguel_maria a {
+	background: url(../../media/images/albumes/bodas/miguel_maria/miguel_maria.jpg) repeat scroll 0%;
+
+}
+
+.jimgMenu_estrecho ul li#pablo_maria a {
+	background: url(../../media/images/albumes/bodas/pablo_maria/pablo_maria.jpg) repeat scroll 0%;
+  
+}
+
+.jimgMenu_estrecho ul li#raquel_daniel a {
+	background: url(../../media/images/albumes/bodas/raquel_daniel/raquel_daniel.jpg) repeat scroll 0%;
+
+}
+
+.jimgMenu_estrecho ul li#raquel a {
+	background: #f8f8f8 url(../../media/images/albumes/comuniones/raquel/raquel.jpg) repeat scroll 0%;
+  
+}
+
+.jimgMenu_estrecho ul li#miriam a {
+	background: url(../../media/images/albumes/comuniones/miriam/miriam.jpg) repeat scroll 0%;
+
+}
+
+.jimgMenu_estrecho ul li#pablo a {
+	background: url(../../media/images/albumes/comuniones/pablo/pablo.jpg) repeat scroll 0%;
+  
+}
+
+.jimgMenu_estrecho ul li#amaya a {
+	background: url(../../media/images/albumes/comuniones/amaya/amaya.jpg) repeat scroll 0%;
+
+}
+
+.jimgMenu_estrecho ul li#isabel_familia a {
+	background: url(../../media/images/albumes/familiar/isabel_familia/isabel_familia.jpg) repeat scroll 0%;
+  
+}
+
+.jimgMenu_estrecho ul li#lourdes_familia a {
+	background: url(../../media/images/albumes/familiar/lourdes_familia/lourdes_familia.jpg) repeat scroll 0%;
+
+}
+
+.jimgMenu_estrecho ul li#maite_familia a {
+	background: url(../../media/images/albumes/familiar/maite_familia/maite_familia.jpg) repeat scroll 0%;
+  
+}
+
+.jimgMenu_estrecho ul li#ruben_familia a {
+	background: url(../../media/images/albumes/familiar/ruben_familia/ruben_familia.jpg) repeat scroll 0%;
+
+}
+
+.jimgMenu_estrecho ul li#arianne a {
+	background: url(../../media/images/albumes/infantil/arianne/arianne.jpg) repeat scroll 0%;
+  
+}
+
+.jimgMenu_estrecho ul li#eneko a {
+	background: url(../../media/images/albumes/infantil/eneko/eneko.jpg) repeat scroll 0%;
+
+}
+
+.jimgMenu_estrecho ul li#helena a {
+	background: url(../../media/images/albumes/infantil/helena/helena.jpg) repeat scroll 0%;
+  
+}
+
+.jimgMenu_estrecho ul li#xabier a {
+	background: url(../../media/images/albumes/infantil/xabier/xabier.jpg) repeat scroll 0%;
+
+}
+
+
+
+
+
+
